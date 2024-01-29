@@ -1,0 +1,16 @@
+https://play.picoctf.org/practice/challenge/261?originalEvent=70&page=1
+
+
+Description
+We found a leak of a blackmarket website's login credentials. 
+Can you find the password of the user cultiris and successfully decrypt it? Download the leak here. 
+The first user in usernames.txt corresponds to the first password in passwords.txt. 
+The second user corresponds to the second password, and so on.
+
+https://artifacts.picoctf.net/c/151/leak.tar
+
+
+tar -xvf leak.tar
+leak/
+leak/passwords.txt
+leak/usernames.txt
