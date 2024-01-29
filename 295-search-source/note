@@ -1,0 +1,22 @@
+https://play.picoctf.org/practice/challenge/295?originalEvent=70&page=2
+
+Description
+The developer of this website mistakenly left an important artifact in the website source, can you find it? The website is here
+
+
+http://saturn.picoctf.net:59405/
+
+
+##https://github.com/LauKr/picoCTF_Write-Up/raw/main/picoCTF2022/Search_source/solve/get_flag.sh
+
+
+grep -F "/**" style.css 
+/**-- heading section --**/
+/** menu section **/
+/** banner_main picoCTF{1nsp3ti0n_0f_w3bpag3s_8de925a7} **/
+/** contact **/
+/** end contact **/
+/** footer **/
+/** end footer **/
+
+https://unix.stackexchange.com/questions/634669/how-to-grep-special-characters-a
