@@ -1,0 +1,12 @@
+https://play.picoctf.org/practice/challenge/291?originalEvent=70&page=3
+
+
+Description
+The flag is somewhere on this web application not necessarily on the website. Find it. Check this out.
+
+http://saturn.picoctf.net:63195
+
+
+wget http://saturn.picoctf.net:63195/css/style.txt
+wget http://saturn.picoctf.net:63195/robots.txt
+wget http://saturn.picoctf.net:63195/js/file.txt 
