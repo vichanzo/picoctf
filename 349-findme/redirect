@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../public/css/tacit-css.min.css"/>
+    <title>Our Bank</title>
+    <style>
+      body {
+        background-color: linen;
+        padding-top:0px;
+      }
+      .thin {
+        margin-top:5px;
+        margin-bottom:5px;
+      }
+      #search-form {
+        text-align:center;
+        margin-bottom:0;
+        padding-bottom:0;
+      }      
+      #search-result {
+        align-items: center;
+        display: none;
+      }
+      
+      #search-term {
+        font-style: italic;
+      }
+    </style>
+
+    <script>
+      function search() {
+        const searchResult = document.getElementById("search-result");
+        const searchTerm = document.getElementById("search-term");
+        const keyword = document.getElementById("keyword");
+
+        const comments = document.getElementById("comments");
+
+        comments.style.visibility = "hidden";
+
+        searchResult.style.display = "block";
+
+        searchTerm.innerHTML = keyword.value;
+
+        //fetching results related to the keyword value from the server
+
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <section>
+      <h1 style="margin-top:5px">Welcome fellow Human</h1>
+      <hr class="thin">
+      <form id="search-form" onsubmit="return search()">
+        <input id="keyword" type="text" class="thin" placeholder="Search for flags"><button type="submit" class="thin">Go</button></form>
+      <hr>
+    </section>
+
+    <section id="search-result">
+      You searched for <span id="search-term"></span>
+      <p>Waiting for server's response... lol</p>
+    </section>
+    <section>
+      <p>I was redirected here by a friend of mine but i couldnt find anything. Help me search for flags :-)</p>
+    </section>
+
+  </body>
+</html>
