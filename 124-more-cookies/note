@@ -1,0 +1,15 @@
+https://play.picoctf.org/practice/challenge/124?category=1&page=1
+
+I forgot Cookies can Be modified Client-side, so now I decided to encrypt them! 
+
+http://mercury.picoctf.net:25992/
+
+
+
+cookie: 
+aGRVcXYwcjJLcTU1YnU1Q3A0Vk5YRFg2WjRhVFl3TmdMU0toVElZV1lwam5GT2NrZFZJTnJUN3dNcjl0NkxucTIrdnN1UWdSSVhHV3V1Mzgwc3NwamROMDFGRGFuUXZOajNSeFZwWWZVT0diR3c3czJNNHhOMjlMRmFxeXBlS1Q
+
+Tried https://cyberchef.org
+
+https://en.wikipedia.org/wiki/Homomorphic_encryption
+
