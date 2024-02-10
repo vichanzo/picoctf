@@ -1,0 +1,22 @@
+https://play.picoctf.org/practice/challenge/200?category=1&page=1
+
+
+My dog-sitter's brother made this website but I can't get in; can you help? 
+
+login.mars.picoctf.net
+
+wget http://login.mars.picoctf.net/index.js
+
+
+https://lelinhtinh.github.io/de4js/
+
+I saw the btoa() which is Base64 encoding
+
+YWRtaW4 = admin
+
+"cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ"
+
+
+https://cyberchef.org/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=Y0dsamIwTlVSbnMxTTNKMk0zSmZOVE55ZGpOeVh6VXpjbll6Y2w4MU0zSjJNM0pmTlROeWRqTnlmUQ
+
+picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}
