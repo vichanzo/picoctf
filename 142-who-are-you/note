@@ -1,0 +1,13 @@
+https://play.picoctf.org/practice/challenge/142?category=1&page=1
+
+Let me in. Let me iiiiiiinnnnnnnnnnnnnnnnnnnn http://mercury.picoctf.net:39114/
+
+
+https://github.com/Dvd848/CTFs/blob/master/2021_picoCTF/Who_are_you.md
+
+                                <h3 style="color:green">What can I say except, you are welcome</h3>
+                        <b>picoCTF{http_h34d3rs_v3ry_c0Ol_much_w0w_b22d
+
+
+curl -o solution.html --user-agent "picobrowser" "http://mercury.picoctf.net:38322/" --referer "http://mercury.picoctf.net:38322/" -H "Date: Wed, 21 Oct 2018 07:28:00 GMT" -H "DNT: 1" -H "X-Forwarded-For: 193.150.233.115" -H "Accept-Language: sv" -s
+grep solution.html h3
