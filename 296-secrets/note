@@ -1,0 +1,27 @@
+https://play.picoctf.org/practice/challenge/296?category=1&page=3
+
+We have several pages hidden. Can you find the one with the flag?
+
+http://saturn.picoctf.net:62050/
+
+HINT: folders folders folders
+
+
+
+
+  856  wget http://saturn.picoctf.net:62050/
+  858  wget http://saturn.picoctf.net:62050/secret/assets/index.css
+  860  wget http://saturn.picoctf.net:62050/robots.txt
+  861  wget http://saturn.picoctf.net:62050/about.html
+  862  wget http://saturn.picoctf.net:62050/contact.html
+  865  wget http://saturn.picoctf.net:62050/secret/assets/flag.txt
+  866  wget http://saturn.picoctf.net:62050/secret/assets/flag
+  867  wget http://saturn.picoctf.net:62050/secret/assets/falg.txt
+  868  wget http://saturn.picoctf.net:62050/secret/assets/index.html
+  871  wget http://saturn.picoctf.net:62050/secret/
+  873  wget http://saturn.picoctf.net:62050/secret/hidden/file.css
+  875  wget http://saturn.picoctf.net:62050/secret/hidden/
+  877  wget http://saturn.picoctf.net:62050/secret/assets/popup.js
+  880  wget http://saturn.picoctf.net:62050/secret/hidden/superhidden/xdfgwd.html
+  881  wget http://saturn.picoctf.net:62050/secret/superhidden/xdfgwd.html
+  883  wget http://saturn.picoctf.net:62050/secret/hidden/superhidden/
