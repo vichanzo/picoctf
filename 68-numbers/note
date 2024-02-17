@@ -1,0 +1,28 @@
+https://play.picoctf.org/practice/challenge/68?page=3
+
+
+The numbers... what do they mean?
+
+HINT: The flag is in the format PICOCTF{}
+
+https://jupiter.challenges.picoctf.org/static/f209a32253affb6f547a585649ba4fda/the_numbers.png
+
+
+I asked Chat GPT for help...
+
+
+User
+I'm trying to decode this string 16 9 3 15 3 20 6 {20 
+
+It looks like you're working with a string of numbers and possibly some symbols. However, it's not clear what encoding or decoding method is being used. If you provide more information or context about the encoding/decoding scheme, I may be able to help you better.
+
+For example, if this is a simple letter-number substitution (A=1, B=2, etc.), then your string "16 9 3 15 3 20 6 {20" might decode to "PICTOFTF{20", but this is just a speculative example.
+
+If you have additional details about the encoding method or any rules that apply, please share them so I can assist you more accurately.
+User
+yes that is right decode 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14
+ChatGPT
+
+If we use a simple letter-number substitution (A=1, B=2, ..., Z=26), the sequence "20 8 5 14 21 13 2 5 18 19 13 1 19 15 14" would decode to:
+
+THE NUMBERSMASON
