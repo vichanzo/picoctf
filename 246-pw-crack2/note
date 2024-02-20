@@ -1,0 +1,18 @@
+https://play.picoctf.org/practice/challenge/246?page=6
+
+https://artifacts.picoctf.net/c/13/level2.py
+https://artifacts.picoctf.net/c/13/level2.flag.txt.enc
+
+picoCTF{tr45h_51ng1ng_489dea9a}
+
+
+>>> user_pw = chr(0x64) + chr(0x65) + chr(0x37) + chr(0x36) 
+>>> print(user_pw)
+de76
+>>> exit()
+
+
+haksploit-picoctf@webshell:~/picoctf/246-pw-crack2$ python level2.py 
+Please enter correct password for flag: de76
+Welcome back... your flag, user:
+picoCTF{tr45h_51ng1ng_489dea9a}
