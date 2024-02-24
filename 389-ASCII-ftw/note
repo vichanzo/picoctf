@@ -1,0 +1,19 @@
+https://play.picoctf.org/practice/challenge/389?originalEvent=gym&page=1&solved=1
+
+This program has constructed the flag using hex ascii values. 
+Identify the flag text by disassembling the program. You can download the file from here
+
+https://artifacts.picoctf.net/c/508/asciiftw
+
+
+decompile using objdump
+> objdump -d asciiftw > diassembly.asm
+https://www.codementor.io/@packt/reverse-engineering-a-linux-executable-hello-world-rjceryk5d
+
+copy the text for x70 to solution.txt
+
+
+cat solution.txt | cut -d "$" -f2 | cut -d "," -f1
+
+cat solution.txt | cut -d "$" -f2 | cut -d "," -f1 | xxd -p -r
+picoCTF{ASCII_IS_EASY_8960F0AF}

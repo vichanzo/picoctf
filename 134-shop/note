@@ -1,0 +1,12 @@
+https://play.picoctf.org/practice/challenge/134?page=3
+
+Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: source. 
+The shop is open for business at nc mercury.picoctf.net 3952.
+
+
+https://mercury.picoctf.net/static/db20ea321ce780e69e29fd4b60e60fe0/source
+
+Flag is:  [112 105 99 111 67 84 70 123 98 52 100 95 98 114 111 103 114 97 109 109 101 114 95 57 99 49 49 56 98 98 102 125]
+
+cyberchef from Decimal
+picoCTF{b4d_brogrammer_9c118bbf}
