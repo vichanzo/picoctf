@@ -1,0 +1,14 @@
+https://play.picoctf.org/practice/challenge/37?category=5&page=1&solved=1
+
+Can you find the flag in file without running it?
+
+https://jupiter.challenges.picoctf.org/static/94d00153b0057d37da225ee79a846c62/strings
+
+
+Hint
+https://linux.die.net/man/1/strings
+
+
+
+strings strings | grep "pico"
+picoCTF{5tRIng5_1T_d66c7bb7}
