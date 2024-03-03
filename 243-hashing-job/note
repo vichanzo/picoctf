@@ -1,0 +1,15 @@
+
+
+If you want to hash with the best, beat this test! 
+nc saturn.picoctf.net 50363
+
+HINT
+You can use a commandline tool or web app to hash text
+Press Ctrl and c on your keyboard to close your connection and return to the command prompt
+
+
+
+https://www.md5hashgenerator.com/
+
+
+picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73}
