@@ -4,3 +4,12 @@ I wonder what this really is... enc ''.join([chr((ord(flag[i]) << 8) + ord(flag[
 
 https://mercury.picoctf.net/static/dd6004f51362ff76f98cb8c699510f23/enc
 
+
+
+https://github.com/HHousen/PicoCTF-2021/blob/master/Reverse%20Engineering/Transformation/script.py
+
+
+python3 solution.py 
+
+picoCTF{16_bits_inst34d_of_8_0ddcd97a}
+
