@@ -1,0 +1,18 @@
+https://play.picoctf.org/practice/challenge/121?page=1&solved=1
+
+Description
+keygenme-trial.py
+
+https://mercury.picoctf.net/static/0c363291c47477642c72630d68936e50/keygenme-trial.py
+
+
+haksploit-picoctf@webshell:~/picoctf/121-keygenme$ python mykeygen.py 
+75fc1081
+haksploit-picoctf@webshell:~/picoctf/121-keygenme$  
+
+
+picoCTF{1n_7h3_|<3y_of_75fc1081}
+
+
+
+https://vivian-dai.github.io/PicoCTF2021-Writeup/Reverse%20Engineering/keygenme-py/
